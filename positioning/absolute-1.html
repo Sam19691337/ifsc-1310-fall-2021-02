@@ -17,33 +17,67 @@ body {
 	line-height: 24px;
 }
 #wrapper {
-	background-color: #FFF;
-	border-top-width: 1px;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 1px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-	width: 800px;
-	margin-right: auto;
-	margin-left: auto;
+position:relative;
+background-color: #FFF;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+width:80vw;
+height:80vh;
+margin-right: auto;
+margin-left: auto;
 }
+
 #red {
 	background-color: #900;
+	width:15vw;
+  height:15vw;
+  position: absolute;
+  top:0;
+  left:0;
+ 
 }
 #green {
 	background-color: #090;
+	width:15vw;
+  height:15vw;
+  position: absolute;
+  top:0;
+  right:0;
+
 }
 #blue {
 	background-color: #00F;
+	width:15vw;
+  height:15vw;
+  position:absolute;
+  bottom:0;
+  left:0;
+  
 }
 #purple {
 	background-color: #63C;
+	width:15vw;
+  height:15vw;
+  position:absolute;
+  bottom:0;
+  right:0;
+  
 }
 #footer {
 	background-color: #666;
+	width:15vw;
+	height:15vw;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	
 }
 h1 {
 	color: #000;
@@ -54,7 +88,7 @@ h1 {
 </head>
 
 <body>
-<h1>Absolute 1</h1>
+<h1>Absolute 2</h1>
 <div id="wrapper">
   <div id="red">Red</div>
   <div id="green">Green</div>
