@@ -300,8 +300,9 @@ header.primary{
         header.primary nav ul{
         display:flex;
         flex-direction:column;
-        justify-content:space-around;
-        margin:0 auto;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 60vw;
         }
          
          header.primary nav a{
