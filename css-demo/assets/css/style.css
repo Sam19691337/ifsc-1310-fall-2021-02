@@ -69,9 +69,9 @@ table th{
 
 
 body{
-    font-family:'Libre Baskerville', serif;
+    font-family:"Libre Baskerville", serif;
     margin:0;
-    line-height: 1.6;
+    line-height:1.6;
 }
 header.primary{
     background:#ffd700;
@@ -79,29 +79,29 @@ header.primary{
     text-align:center;
     color:#ffffff;
     text-shadow:2px 2px #000000;
-    /* Long Form */
-    padding-top:40px;
-    padding-right:40px;
-    padding-bottom:20px;
-    padding-left:40px;
-    /* T,R,B,L */
+    /* T,B,R,L*/
     padding:40px 40px 20px 40px;
-    /* Top/Bottom  Right/Left */
-    padding:20px 40px;
 }
     
     header.primary h1{
         font-size:2.9rem;
         margin: 20px 0;
+        position: relative;
     }
     
-    header.primary h1 a{
-        color:#ffffff;
-        text-decoration:none;
+header.primary h1 a{
+  color:#ffffff;
+  text-decoration:none;
+  width: 450px;
+  height: 70px;
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
     }
     
     header.primary h2{
-        font-size:1.8rem;
+        font-size:2em;
         /* Top | Left/Right | Bottom */
         margin: 20px auto 40px;
     }
@@ -121,6 +121,7 @@ header.primary{
     
     header.primary nav ul li{
     list-style-type:none;
+    
      }
     header.primary nav ul li a{
     color:#ffffff;
@@ -133,7 +134,7 @@ header.primary{
      }
      
      header.primar nav a:hover,
-      header.primar nav a:active{
+     header.primar nav a:active{
           background-color:rgba(0,0,0,0.8);
       }
       
@@ -145,15 +146,11 @@ header.primary{
      #intro h2{
       color:#ffd700;
     }
-
-     #intro p{ 
-      
-    }
      
-     #content{
-         display:flex;
-         flex-direction:row;
-         justify-content:space-between;
+    #content{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
      }
      
     #content article.post{
@@ -266,7 +263,7 @@ header.primary{
          width:45%;
      }
      
-     aside a.read-more:link{
+     aside a:link{
          color:white;
          display:block;
          margin-top:10px;
